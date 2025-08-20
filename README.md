@@ -75,7 +75,7 @@ The Email2IM relay system uses the Second Life name to key service at http://w-h
 
 The Email2IM product can be purchased on the Second Life Marketplace at http://tinyurl.com/4h6gvqk
 
-This document is available in OpenOffice and PDF formats at http://www.scribd.com/doc/48599122/Email2IM-Owner-Manual
+This document is available in OpenOffice and PDF formats at https://www.scribd.com/document/904208538/Email2IM-Owner-Manual
 
 Email missyrestless@gmail.com with any questions, comments, suggestions, etc.
 
