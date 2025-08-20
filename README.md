@@ -2,11 +2,34 @@
 
 Email a message to a Second Life resident
 
+## Table of Contents
+
+- [INTRODUCTION](#introduction)
+- [WHY BUY](#why-buy)
+- [SETUP](#setup)
+- [CONFIGURATION](#configuration)
+- [USAGE](#usage)
+- [FURTHER INFORMATION](#further-information)
+
 ## INTRODUCTION
 
 The Email2IM object enables the owner to email a message to a Second Life resident. The object parses incoming email and relays the body of the message as an Instant Message to the Second Life resident whose name appears in the Subject line of the email. Owners of the Email2IM system are thus able to respond to forwarded IM's even when not online by simply sending email to the object's address with the name of the resident as the subject line.
 
 In addition, the Email2IM object changes shape and texture, acting as an art object so as to be pleasing to the eye while in use.
+
+## Why Buy
+
+`Question`: Why should you buy these from me in Second Life or on the Second Life Marketplace rather than just download the git repository and deploy for free?
+
+`Answer`: You are welcome to download and deploy for free. However, you may consider the following factors:
+
+  - The products are extremely inexpensive
+  - Sales support further development, better products, and new products
+  - I probably know better than you how to package these for deployment in SL
+  - You get some limited Support if you purchase from me
+  - The time you spend downloading and deploying is worth a LOT more than the cost of buying
+
+BUT, you might learn something by doing it all yourself so please feel free to dive in!
 
 ## SETUP
 
