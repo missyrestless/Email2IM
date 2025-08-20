@@ -39,26 +39,13 @@ Simply rez the Email2IM object and position it where you would like the art disp
 
 The Email2IM script defaults can be modified by editing the Email2IM_Config notecard in the object's contents. To do so, right click the Email2IM object and select "Edit". In the edit window, click on the "Contents" tab. In the Contents tab, right click on the notecard "Email2IM_Config" and select "Open". You can now modify the following default values:
 
-**`INTERVAL`**
-  This value sets the time (in seconds) between checking for new email and changing the shape of the object. The default value is 120 seconds. The shape changes will be an integer multiple of this value.
-
-**`MULTIPLE`**
-  This value determines the interval at which shape changes occur. Values represent an integer multiple of the `INTERVAL` above. The default value is 1 meaning shape changes occur every time mail is checked. A value of 3 would mean shape changes occur every (3 * INTERVAL) seconds. A value of 0 means no shape or texture changes would occur.
-
-**`HOVER_TEXT`**
-  Set to TRUE or FALSE, this value determines whether or not the object will display it's status as hover text. Default value is TRUE.
-
-**`ROTATE`**
-  Set to FALSE if you do not wish the prim to rotate. Default TRUE.
-
-**`SENDER`**
-  If you wish to restrict the incoming email to only that sent from a particular email address then set SENDER to your email address. The default is to accept all incoming email and attempt to relay the message to the Subject. Should the Email2IM object's UUID be known to other parties then they would be able to flood the object with email. This parameter can be used to restrict email to only the owner or a trusted friend's email address.
-
-**`SIMPLE`**
-  Set to TRUE or FALSE. If you just want a small static box then set this to TRUE. If you want the prim to rotate and change textures/shape then leave it commented out. Setting this to TRUE also sets MULTIPLE above to 0 and SIZE below to small.
-
-**`SIZE`**
-  Some size defaults. This can be set to tiny, small, medium, large, XL, or XXL which will size the prim to 0.1, 0.5, 1.0, 2.0, 3.0, or 4.0 meters on a side.
+* `INTERVAL` - This value sets the time (in seconds) between checking for new email and changing the shape of the object. The default value is 120 seconds. The shape changes will be an integer multiple of this value.
+* `MULTIPLE` - This value determines the interval at which shape changes occur. Values represent an integer multiple of the `INTERVAL` above. The default value is 1 meaning shape changes occur every time mail is checked. A value of 3 would mean shape changes occur every (3 * INTERVAL) seconds. A value of 0 means no shape or texture changes would occur.
+* `HOVER_TEXT` - Set to TRUE or FALSE, this value determines whether or not the object will display it's status as hover text. Default value is TRUE.
+* `ROTATE` - Set to FALSE if you do not wish the prim to rotate. Default TRUE.
+* `SENDER` - If you wish to restrict the incoming email to only that sent from a particular email address then set SENDER to your email address. The default is to accept all incoming email and attempt to relay the message to the Subject. Should the Email2IM object's UUID be known to other parties then they would be able to flood the object with email. This parameter can be used to restrict email to only the owner or a trusted friend's email address.
+* `SIMPLE` - Set to TRUE or FALSE. If you just want a small static box then set this to TRUE. If you want the prim to rotate and change textures/shape then leave it commented out. Setting this to TRUE also sets MULTIPLE above to 0 and SIZE below to small.
+* `SIZE` - Some size defaults. This can be set to tiny, small, medium, large, XL, or XXL which will size the prim to 0.1, 0.5, 1.0, 2.0, 3.0, or 4.0 meters on a side.
 
 While editing the Email2IM object you may also add or delete the textures in the object contents. These are used to periodically change the appearance of the various shapes. All textures in the object contents are automatically used. After completing any changes to the configuration notecard, save it and close the edit window. The object will reset with your changes in use.
 
