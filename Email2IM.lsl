@@ -14,6 +14,7 @@
 //     Subject field
 // Modified 09-Feb-2011 by Missy Restless - change shapes and textures; read
 //     configuration notecard for some defaults
+// Modified 19-Oct-2011 by Missy Restless - don't IM owner if key found
  
 ////////// globals //////////
 key owner;
@@ -567,7 +568,7 @@ default {
                                  "Unable to determine the Avatar key to use.");
                     return;
                 }
-                llInstantMessage(owner, "Key found for " + name);
+                // llInstantMessage(owner, "Key found for " + name);
                 llInstantMessage((key)body, llKey2Name(owner)
                              + " is not online but has emailed you this IM :\n"
                              + message);
